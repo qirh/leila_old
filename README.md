@@ -1,5 +1,6 @@
 # Slack GPT2
 Just @ this bot and type in a message to get an output from GPT2 conditioned on the message.
+![](./slack.png)
 # slack-starterbot
 A simple Python-powered starter Slack bot. Read 
 [the tutorial](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html) 
