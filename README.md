@@ -14,6 +14,7 @@ python3 download_model.py 117M
 cd ..
 python3 starterbot.py
 ```
+# Thanks to these libraries for making it easy.
 # slack-starterbot
 A simple Python-powered starter Slack bot. Read
 [the tutorial](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html)
