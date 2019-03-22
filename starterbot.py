@@ -5,7 +5,7 @@ from slackclient import SlackClient
 import sys
 from gpt2.src import generate_unconditional_samples
 # instantiate Slackk client
-slack_client = SlackClient('your string here')
+slack_client = SlackClient('your token here')
 # starterbot's user ID in Slack: value is ssigned after the bot starts up
 starterbot_id = None
 
@@ -47,7 +47,7 @@ def handle_command(command, channel):
     if len(command) < 2:
         response = "Sure...write some more text then I can do that!"
     else:
-        response = generate_unconditional_samples.sample_model(nsamples=1, length=3*len(command), top_k=40, command=command)[0]
+        response = generate_unconditional_samples.sample_model(nsamples=1, length=min(3*len(command), 300), top_k=40, command=command)[0]
 
 
     # Sends the response back to the channel
