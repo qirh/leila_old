@@ -11,6 +11,7 @@ pip3 install -r requirements.txt
 cd gpt2
 pip3 install -r requirements.txt
 python3 download_model.py 117M
+cd ..
 python3 starterbot.py
 ```
 # slack-starterbot
