@@ -19,5 +19,4 @@ A simple Python-powered starter Slack bot. Read
 for a full overview.
 
 # gpt-2
-Code for the paper "Language Models are Unsupervised Multitask Learners"
-[Code](https://github.com/openai/gpt-2)
+[Code](https://github.com/openai/gpt-2) for the paper "Language Models are Unsupervised Multitask Learners"
