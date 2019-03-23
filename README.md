@@ -3,7 +3,7 @@ Just @ this bot and type in a message to get an output from GPT2 conditioned on 
 ![](./slack.png)
 
 # Installation
-First setup your slack integration and obtain the bot oauth token. Then paste the bot token
+First setup your slack integration and obtain the bot oauth token. Follow this [tutorial](https://www.fullstackpython.com/blog/build-first-slack-bot-python.html) to do it. Then paste the bot token
 into `starterbot.py`.
 
 ```
