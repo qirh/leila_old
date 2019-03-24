@@ -22,3 +22,9 @@ for a full overview.
 
 # gpt-2
 [Code](https://github.com/openai/gpt-2) for the paper "Language Models are Unsupervised Multitask Learners"
+
+# Gwern's gpt2-poetry-model
+
+Download the model: https://www.gwern.net/RNN-metadata#finetuning-the-gpt-2-small-transformer-for-english-poetry-generation
+
+Unzip. Go to models, replace the necessary files.
