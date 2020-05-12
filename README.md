@@ -25,6 +25,6 @@ for a full overview.
 
 # Gwern's gpt2-poetry-model
 
-Download the model: https://www.gwern.net/RNN-metadata#finetuning-the-gpt-2-small-transformer-for-english-poetry-generation
+Download the model: https://www.gwern.net/GPT-2#gpt-2-poetry-samples
 
 Unzip. Go to models, replace the necessary files.
